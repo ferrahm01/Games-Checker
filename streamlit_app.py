@@ -52,6 +52,17 @@ if st.button("Next Spin"):
     else:
         st.error("Please enter a valid hash.")
 
+st.write("**How to use the program:**")
+st.write("1. Open game menu & find the SHA-256 hash code.")
+st.write("2. Copy the hash code and paste it into the input field above.")
+st.write("3. Select your base bet amount from the dropdown menu.")
+st.write("4. Set the player seed to 000000")
+st.write("5. Click the 'Decode' button to analyze the hash and receive your chances and recommended bet.")
+st.write("6. For the next spin, click the 'Next Spin' button.")
+
+#st.write("**Note: The results provided by this tool are based on a random analysis of the input hash and do not reflect any actual decoding of the hash. The chances and variance are generated randomly for demonstration purposes.**")    
+
+st.write("**Disclaimer: This tool is for educational purposes only. It does not guarantee any specific outcomes and should not be used for actual gambling. Always gamble responsibly.**")  
 
 
 
